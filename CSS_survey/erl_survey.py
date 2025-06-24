@@ -415,7 +415,7 @@ def survey():
                         st.session_state.answers.append(ans)
                         st.session_state.step += 1
                         st.rerun()
-                elif st.session_state.step == len(process_questions) + 1:
+                elif st.session_state.step == len(process_questions):
                     q5p = st.number_input("On average, how many iterations before full implementation?", key="qp4")
                     
                     if st.button("View my results"):
