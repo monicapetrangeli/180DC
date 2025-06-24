@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#007AFF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#0D2B5C"
+font = "sans serif"
+
+# Note - super important!! must be added in a folder called '.streamlit' in the same directory as the .py app
