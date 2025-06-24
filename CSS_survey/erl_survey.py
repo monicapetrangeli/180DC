@@ -764,7 +764,7 @@ def results():
             st.download_button(
                 label="Download Persona PDF",
                 data=pdf_buffer,
-                file_name="Naked Innovation Persona Report.pdf",
+                file_name="Naked Innovations Persona Report.pdf",
                 mime="application/pdf",
                 key="persona_pdf_dl",
                 help="Download your personalized persona report as a PDF."
