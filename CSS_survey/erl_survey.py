@@ -415,20 +415,6 @@ def survey():
                         st.session_state.answers.append(ans)
                         st.session_state.step += 1
                         st.rerun()
-                elif st.session_state.step == len(process_questions):
-                    q1p, q2p, q3p = map(int, st.session_state.answers[-3:])
-                    lowest_q = min(q1p, q2p, q3p)
-                    if lowest_q == q1p:
-                        q4p = ask_radio('We host demo days or innovation challenges to help teams develop and launch new ventures.', "qp3")
-                    elif lowest_q == q2p:
-                        q4p = ask_radio('We use a structured system to capture and implement ideas from ecosystem participants.', "qp3")
-                    else:
-                        q4p = ask_radio('We have a defined pathway for scaling successful pilots into funded programs or spin-outs.', "qp3")
-
-                    if st.button("Next"):
-                        st.session_state.answers.append(q4p)
-                        st.session_state.step += 1
-                        st.rerun()
                 elif st.session_state.step == len(process_questions) + 1:
                     q5p = st.number_input("On average, how many iterations before full implementation?", key="qp4")
                     
