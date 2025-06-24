@@ -348,21 +348,22 @@ def survey():
 
    # Questions for each section
     knowledge_questions = [
-        "I understand co-innovation frameworks (e.g., hackathons, collaborative labs, research consortia) used in ecosystem innovation.",
-        "I keep pace with emerging tools (e.g., AI, foresight, innovation analytics) used in innovation and strategy consulting.",
-        "I am experienced in protecting intellectual property and data in multi-stakeholder environments.",
-        "I regularly exchange knowledge with peers in academic, public, and private-sector innovation communities.",
+        "I understand how emerging technologies and methods can be leveraged to drive innovation in our core operations.",
+        "I regularly monitor relevant market, regulatory and industry trends to inform our strategic direction.",
+        "I am familiar with best practices for collaborating with external partners (e.g., suppliers, startups, research institutions).",
+        "I know how to use data and performance metrics to guide continuous improvement and new-product development.",
     ]
     mindset_questions = [
-        "Leadership actively encourages experimentation with new innovation methodologies or collaboration models.",
-        "Team members are supported in developing novel approaches to engage startups, partners, or public/private stakeholders.",
-        "We're open to piloting new innovation formats (e.g., living labs, venture studios), even with uncertain ROI.",
-        "We co-create with academic, government, or private-sector actors to shape new innovation practices.",
+        "Our leadership actively champions the adoption of new technologies, methods or business models.",
+        "Employees at all levels are encouraged to propose ideas and experiment with new approaches.",
+        "We are willing to invest resources in pilot projects even if the returns may take time to materialize.",
+        "We collaborate regularly with external experts—clients, partners or research organizations—to co-create solutions.",
     ]
     process_questions = [
-        "Our labs and accelerator spaces actively support stakeholders in testing new innovation concepts.",
-        "We rapidly incorporate feedback from startups and academic partners into program iterations.",
-        "We move from concept workshops to live pilot programs within a month.",
+        "We have a clear, formal process for capturing, evaluating and prioritizing new ideas.",
+        "Our teams rapidly incorporate feedback from stakeholders (e.g., customers, suppliers, quality control) into each iteration.",
+        "We move from concept approval to small-scale prototype (or pilot) within a specified short timeframe (e.g., two weeks).",
+        "We regularly host structured ideation events (hackathons, sprints or workshops) to generate and refine concepts."
     ]
 
     if st.session_state.section == "knowledge":
